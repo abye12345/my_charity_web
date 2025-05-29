@@ -131,18 +131,18 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/news" element={<News />} />
-            <Route path="/donate" element={<Donate />} />
-            <Route path="/daily" element={<Daily />} />
-            <Route path="/capacity" element={<Capacity />} />
-            <Route path="/achievements" element={<Achievements />} />
-            <Route path="/membership" element={<Membership />} />
-            <Route path="/food-aid" element={<FoodAid />} />
-            <Route path="/education-training" element={<EducationTraining />} />
-            <Route path="/medication" element={<Medication />} />
-            <Route path="/form" element={<Form />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="news" element={<News />} />
+            <Route path="donate" element={<Donate />} />
+            <Route path="daily" element={<Daily />} />
+            <Route path="capacity" element={<Capacity />} />
+            <Route path="achievements" element={<Achievements />} />
+            <Route path="membership" element={<Membership />} />
+            <Route path="food-aid" element={<FoodAid />} />
+            <Route path="education-training" element={<EducationTraining />} />
+            <Route path="medication" element={<Medication />} />
+            <Route path="form" element={<Form />} />
           </Route>
         </Routes>
         <div className=" bottom-12 right-12 z-10 fixed">
