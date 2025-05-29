@@ -18,6 +18,7 @@ import EducationTraining from "./Home/EducationTraining/EducationTraining";
 import Medication from "./Home/Medication/Medication";
 import Form from "./Home/Register/Form";
 import Footer from "./Footer/Footer";
+
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedLang, setSelectedLang] = useState("English");
@@ -75,7 +76,7 @@ const App = () => {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/my_charity_web">
       <div className="min-h-screen flex flex-col">
         {/* Language selector and social media bar */}
         <div className="bg-yellow-400 w-full h-14 flex justify-between items-center px-8  z-50 relative">
