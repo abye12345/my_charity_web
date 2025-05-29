@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://abye12345.github.io/my_charity_web",
+  "homepage": "https://github.com/abye12345/my_charity_web",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
