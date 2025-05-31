@@ -49,6 +49,6 @@ npm run dev
 
 Visit the live demo at: [https://abye12345.github.io/my_charity_web/](https://abye12345.github.io/my_charity_web/)
 
-## 📝 License
+## 📝 License.
 
 This project is private and confidential.
